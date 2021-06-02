@@ -1,0 +1,22 @@
+{
+  "name": "learn_graphql",
+  "version": "1.0.0",
+  "description": "learn graphql from official tutorial",
+  "scripts": {
+    "start": "node getting_start.js",
+    "express": "node express_server.js",
+    "basicTypes": "node basic_types.js",
+    "passArguments": "node pass_arguments.js",
+    "objectTypes": "node object_types.js",
+    "middleware": "node express_middleware.js",
+    "my": "node my_deck.js"
+  },
+  "author": "Eric Chan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "lodash": "^4.17.21"
+  }
+}
